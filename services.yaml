@@ -2,9 +2,9 @@
   kind: Service
   metadata:
     labels:
-      app: wordpress
+      app: nginx
       type: front
-    name: wordpress
+    name: nginx
     namespace: default
   spec:
     ports:
